@@ -1,0 +1,237 @@
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            background-image: url("img/bg.jpg");
+            width: auto;
+            display: block;
+        }
+        
+        .navbar {
+            display: flex;
+            background-color: rgb(81, 205, 98);
+        }
+        
+        .logo {
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        
+        .logo2 {
+            padding-left: 700px;
+        }
+        
+        .menu {
+            margin-top: 30px;
+            margin-left: 50px;
+            width: full;
+            display: flex;
+        }
+        
+        .menu li {
+            justify-content: space-around;
+            list-style: none;
+            padding-left: 50px;
+        }
+        
+        .menu li a {
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        /*isi konnten*/
+        
+        .main {
+            display: flex;
+        }
+        
+        .container .navbar .menu li {
+            list-style: none;
+            color: black;
+            text-decoration: none;
+            border: gray;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .container .navbar .menu li :hover {
+            list-style: none;
+            color: gray;
+            text-decoration: none;
+            border: white;
+        }
+        
+        .category {
+            background-color: rgba(133, 122, 107, 0.531);
+            height: 500px;
+            margin-top: 30px;
+            margin-left: 30px;
+            padding-right: 40px;
+        }
+        
+        .category ul h2 a {
+            list-style: none;
+            color: black;
+            text-decoration: none;
+            border: gray;
+            border-style: outset;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .category ul h2 a:hover {
+            list-style: none;
+            color: gray;
+            text-decoration: none;
+            border: white;
+            border-style: outset;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .category h1 {
+            margin-left: 10px;
+        }
+        
+        .content {
+            display: block;
+            width: 800px;
+            text-align: start;
+        }
+        
+        .trending {
+            width: 800px;
+            height: 500px;
+            margin-top: 30px;
+            margin-right: 10px;
+            margin-left: 20px;
+            border: solid gray;
+            border-width: thin;
+        }
+        
+        .trending h1 {
+            text-align: center;
+        }
+        
+        .trending-card .img-card img {
+            width: 400px;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        
+        .trending-card {
+            margin-top: 70px;
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+        }
+        
+        .trending-content-card {
+            width: 300px;
+        }
+        
+        .trending-content-card p {
+            width: fit-content;
+            font-weight: 200;
+        }
+        
+        .berita-lain h4 {
+            margin-left: 680px;
+        }
+        
+        .berita-lain {
+            width: 800px;
+        }
+        
+        .berita-lain .cards {
+            width: 800px;
+            margin-left: 350px;
+            display: flex;
+        }
+        
+        .berita-lain .cards .card {
+            margin-left: 50px;
+            padding: 0px;
+            width: 300px;
+        }
+        
+        @media screen and (max-width: 780px) {
+            .navbar {
+                display: block;
+                height: 250px;
+            }
+            .menu {
+                display: block;
+                margin-top: 20px;
+                margin-left: 0px;
+                padding-left: 0px;
+            }
+            .menu li {
+                padding-top: 20px;
+            }
+            .logo2 {
+                padding-left: 200px;
+                margin-top: 20px;
+            }
+            .main {
+                display: block;
+            }
+            .category {
+                margin: auto;
+                height: 250px;
+            }
+            .category h1 {
+                margin-top: 0px;
+                padding-top: 10px;
+            }
+            .category ul br {
+                display: none;
+            }
+            .category ul h2 a {
+                list-style: none;
+                color: black;
+                text-decoration: none;
+                border: none;
+            }
+            .category ul h2 a:hover {
+                list-style: none;
+                color: gray;
+                text-decoration: none;
+                border: white;
+                border-style: outset;
+            }
+            .cards h1 {
+                margin-top: 10px;
+                margin-left: 150px;
+            }
+            .trending {
+                width: 420px;
+            }
+            .trending-card {
+                display: block;
+            }
+            .img-card img {
+                display: none;
+            }
+            .berita-lain {
+                width: 420px;
+            }
+            .berita-lain h4 {
+                margin-left: 200px;
+            }
+            .berita-lain .cards {
+                width: 400px;
+                margin-left: 20px;
+                display: block;
+            }
+            .berita-lain .cards .card {
+                margin-left: 50px;
+                margin-top: 30px;
+                padding: 0px;
+                width: 300px;
+            }
+            .card h3 br {
+                display: none;
+            }
+        }

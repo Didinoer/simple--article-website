@@ -1,0 +1,1 @@
+<li style="border-style :solid; list-style :none; " > <p>ini adalah kometar pertama<p><span> Oleh : <b>admin</b>

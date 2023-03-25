@@ -1,0 +1,109 @@
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            width: auto;
+        }
+        
+        .navbar {
+            display: flex;
+            background-color: rgb(81, 205, 98);
+        }
+
+        .container .navbar .menu li {
+            list-style: none;
+            color: black;
+            text-decoration: none;
+            border: gray;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .container .navbar .menu li :hover {
+            list-style: none;
+            color: gray;
+            text-decoration: none;
+            border: white;
+        }
+        
+        .logo {
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        
+        .logo2 {
+            padding-left: 700px;
+        }
+        
+        .menu {
+            margin-top: 30px;
+            margin-left: 50px;
+            width: full;
+            display: flex;
+        }
+        
+        .menu li {
+            justify-content: space-around;
+            list-style: none;
+            padding-left: 50px;
+        }
+        
+        .menu li a {
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        /*isi konnten*/
+        
+        .main {
+            width: 100%;
+            display: flex;
+        }
+        
+        .cards {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            padding-right: 30px;
+        }
+        
+        .card {
+            display: block;
+            margin-top: 100px;
+            margin-left: 30px;
+            justify-content: center;
+            border: solid;
+            border-width: thin;
+            padding: 30px;
+            background-color: aqua;
+        }
+        
+        @media screen and (max-width: 780px) {
+            .navbar {
+                display: block;
+                height: 250px;
+            }
+            .menu {
+                display: block;
+                margin-top: 20px;
+                margin-left: 0px;
+                padding-left: 0px;
+            }
+            .menu li {
+                padding-top: 20px;
+            }
+            .logo2 {
+                padding-left: 200px;
+                margin-top: 20px;
+            }
+            .main {
+                display: block;
+            }
+            .cards {
+                display: block;
+            }
+            .card {
+                background-color: aqua;
+            }
+        }

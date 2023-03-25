@@ -1,0 +1,211 @@
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            background-image: url("img/bg.jpg");
+            width: auto;
+        }
+        
+        .navbar {
+            display: flex;
+            background-color: rgb(81, 205, 98);
+        }
+        
+        .container .navbar .menu li {
+            list-style: none;
+            color: black;
+            text-decoration: none;
+            border: gray;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .container .navbar .menu li :hover {
+            list-style: none;
+            color: gray;
+            text-decoration: none;
+            border: white;
+        }
+        
+        .logo {
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        
+        .logo2 {
+            padding-left: 650px;
+        }
+        
+        .menu {
+            margin-top: 30px;
+            margin-left: 50px;
+            width: full;
+            display: flex;
+        }
+        
+        .menu li {
+            justify-content: space-around;
+            list-style: none;
+            padding-left: 50px;
+        }
+        
+        .menu li a {
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        /*isi konnten*/
+        
+        .main {
+            display: flex;
+        }
+        
+        .category {
+            background-color: rgba(133, 122, 107, 0.531);
+            height: 500px;
+            margin-top: 30px;
+            margin-left: 30px;
+            padding-right: 40px;
+        }
+        
+        .category ul h2 a {
+            list-style: none;
+            color: black;
+            text-decoration: none;
+            border: gray;
+            border-style: outset;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .category ul h2 a:hover {
+            list-style: none;
+            color: gray;
+            text-decoration: none;
+            border: white;
+            border-style: outset;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .category h1 {
+            margin-left: 10px;
+        }
+        
+        .content {
+            display: block;
+            width: 800px;
+            text-align: start;
+        }
+        
+        .content-container {
+            width: 700px;
+            margin-left: 30px;
+            display: block;
+        }
+        
+        .isi-content p {
+            font-size: larger;
+            text-align: justify;
+        }
+        
+        .komentar {
+            margin-left: 30px;
+            padding-top: 50px;
+        }
+        
+        .cards {
+            width: 250px;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+        .cards .card img {
+            width: 200px;
+        }
+        
+        .card {
+            border-style: solid;
+            margin-top: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-color: gray;
+        }
+        
+        .content-card p {
+            width: fit-content;
+            font-weight: 200;
+        }
+        
+        @media screen and (max-width: 780px) {
+            .navbar {
+                display: block;
+                height: 250px;
+            }
+            .menu {
+                display: block;
+                margin-top: 20px;
+                margin-left: 0px;
+                padding-left: 0px;
+            }
+            .menu li {
+                padding-top: 20px;
+            }
+            .logo2 {
+                padding-left: 200px;
+                margin-top: 20px;
+            }
+            .main {
+                display: block;
+            }
+            .category {
+                margin: auto;
+                height: 250px;
+            }
+            .category h1 {
+                margin-top: 0px;
+                padding-top: 10px;
+            }
+            .category ul br {
+                display: none;
+            }
+            .category ul h2 a {
+                list-style: none;
+                color: black;
+                text-decoration: none;
+                border: none;
+            }
+            .category ul h2 a:hover {
+                list-style: none;
+                color: gray;
+                text-decoration: none;
+                border: white;
+                border-style: outset;
+            }
+            .content {
+                display: block;
+                width: 800px;
+            }
+            .content-container {
+                width: 420px;
+                margin-left: 10px;
+                display: block;
+            }
+            .content-container img {
+                width: 400px;
+            }
+            .showcomment {
+                width: 400px;
+                margin-left: 10px;
+            }
+            .card {
+                width: 350px;
+                padding: 10px;
+            }
+            .cards h3 {
+                margin-top: 50px;
+                margin-left: 150px;
+            }
+        }
